@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Quartz</id>
+    <version>3.0.7</version>
+    <title>Quartz.NET</title>
+    <authors>Marko Lahma</authors>
+    <owners>Marko Lahma</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <projectUrl>https://www.quartz-scheduler.net/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Quartz Scheduling Framework for .NET</description>
+    <summary />
+    <releaseNotes>https://github.com/quartznet/quartznet/releases</releaseNotes>
+    <copyright>Copyright Marko Lahma</copyright>
+    <tags>scheduling tasks jobs triggers scheduler threading</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5.2" />
+      <group targetFramework="Unsupported0.0">
+        <dependency id="Microsoft.CSharp" version="4.5.0" />
+        <dependency id="System.Collections.NonGeneric" version="4.3.0" />
+        <dependency id="System.Collections.Specialized" version="4.3.0" />
+        <dependency id="System.ComponentModel.TypeConverter" version="4.3.0" />
+        <dependency id="System.Configuration.ConfigurationManager" version="4.5.0" />
+        <dependency id="System.Data.Common" version="4.3.0" />
+        <dependency id="System.Data.SqlClient" version="4.5.1" />
+        <dependency id="System.Net.NameResolution" version="4.3.0" />
+        <dependency id="System.Reflection.TypeExtensions" version="4.5.0" />
+        <dependency id="System.Runtime.Serialization.Xml" version="4.3.0" />
+        <dependency id="System.Threading.Thread" version="4.3.0" />
+        <dependency id="System.Xml.XmlSerializer" version="4.3.0" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework=".NETFramework4.5.2" />
+      <frameworkAssembly assemblyName="System.Configuration" targetFramework=".NETFramework4.5.2" />
+      <frameworkAssembly assemblyName="System.Runtime.Remoting" targetFramework=".NETFramework4.5.2" />
+    </frameworkAssemblies>
+  </metadata>
+</package>
